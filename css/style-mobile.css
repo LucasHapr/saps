@@ -1,0 +1,699 @@
+/*
+	Verti by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+*/
+
+/*********************************************************************************/
+/* Basic                                                                         */
+/*********************************************************************************/
+	body
+	{
+		line-height: 1.75em;
+		font-size: 10pt;
+		letter-spacing: 0;
+	}
+
+	h2, h3, h4, h5, h6
+	{
+		font-size: 13pt;
+		margin: 0 0 1em 0;
+	}
+
+	/* Section/Article */
+
+		section,
+		article
+		{
+			clear: both;
+			margin-bottom: 3em !important;
+		}
+		
+			section.last,
+			article.last
+			{
+				margin-bottom: 0 !important;
+			}
+	
+	/* Image */
+
+		.image
+		{
+		}
+
+			.image.left
+			{
+				width: 25%;
+				margin-bottom: 2em !important;
+			}
+
+	/* List */
+
+		ul
+		{
+		}
+		
+			ul.menu
+			{
+			}
+			
+				ul.menu li
+				{
+					display: block;
+					border: 0 !important;
+					padding: 0 !important;
+					margin: 0 !important;
+				}
+
+			ul.actions
+			{
+			}
+
+				ul.actions li
+				{
+					display: block;
+					padding: 0;
+					margin: 1em 0 0 0;
+				}
+				
+					ul.actions li:first-child
+					{
+						margin-top: 0;
+					}
+
+	/* Button */
+
+		input[type="button"],
+		input[type="submit"],
+		input[type="reset"],
+		.button
+		{
+			width: 100%;
+			text-align: center;
+			font-size: 1.35em;
+			padding: 0.85em 0 !important;
+		}
+
+			.button.icon
+			{
+				padding-right: 0.75em !important;
+			}
+
+				.button.icon:before
+				{
+					margin-right: 0.5em;
+					top: 0.05em;
+				}
+
+	/* Box */
+
+		.box
+		{
+			/*padding: 15px 15px 15px 15px;*/
+			margin: 0;
+			
+		}		
+        
+			.box.feature
+			{
+				float: inline-start;
+				margin: 20px 0 0 0 !important;
+				width: 120px;
+				height: 180px;
+			    position: relative;	
+			    
+			}
+
+				.box.feature .inner
+				{
+					width: 120px;
+					height: 160px;
+					
+					
+				}
+				
+				.box.feature p
+				{
+					margin: 0;
+					text-align: center;
+					
+				}
+				.box.feature h2 
+				{
+					text-align: center;
+					
+				}
+
+				.box.feature .image
+				{
+					position: center;
+					margin: 15px;
+					
+				}
+
+					.box.feature .image img
+					{
+						border-bottom-left-radius: 0;
+						border-bottom-right-radius: 0;
+						width: 90px;
+						height: 90px;
+						
+					}
+
+/*********************************************************************************/
+/* Widgets                                                                       */
+/*********************************************************************************/
+
+	.widget
+	{
+	}
+
+		.widget.thumbnails
+		{
+		}
+
+			.widget.thumbnails .image
+			{
+				margin: 0;
+			}
+		
+			.widget.thumbnails .x
+			{
+				padding: 1em 0.5em 0 0;
+			}
+		
+			.widget.thumbnails .y
+			{
+				padding: 1em 0 0 0.5em;
+			}
+
+			.widget.thumbnails .row:first-child .x,
+			.widget.thumbnails .row:first-child .y
+			{
+				padding-top: 0;
+			}	
+
+/*********************************************************************************/
+/* Mobile UI                                                                     */
+/*********************************************************************************/
+
+	#titleBar
+	{
+	}
+
+		#titleBar .title
+		{
+			display: none;
+		}
+
+		#titleBar .toggle
+		{
+			width: 70px;
+			height: 50px;
+			opacity: 0.35;
+		}
+
+			#titleBar .toggle:before
+			{
+				display: inline-block;
+				font-family: FontAwesome;
+				text-decoration: none;
+				font-style: normal;
+				font-weight: normal;
+				-webkit-font-smoothing:antialiased;
+				-moz-osx-font-smoothing:grayscale;
+				
+				position: absolute;
+				left: 6px;
+				top: 6px;
+				background: rgba(0,0,0,0.5);
+				width: 58px;
+				height: 38px;
+				border-radius: 6px;
+				content: '\f0c9';
+				color: #fff;
+				text-align: center;
+				line-height: 38px;
+				font-size: 20px;
+			}
+
+			#titleBar .toggle:active
+			{
+				opacity: 0.75;
+			}
+
+	#navPanel
+	{
+		background: #fff;
+		box-shadow: inset -3px 0px 0px 0px #dfdfdf;
+		padding: 0 23px 0 20px;
+	}
+
+		#navPanel .link
+		{
+			display: block;
+			text-decoration: none;
+			height: 54px;
+			line-height: 54px;
+			border-top: solid 1px #e8e8e8;
+			color: #696969;
+		}
+		
+			#navPanel .link:first-child
+			{
+				border-top: 0;
+			}
+
+			#navPanel .indent-1 { display: inline-block; width: 1em; }
+			#navPanel .indent-2 { display: inline-block; width: 2em; }
+			#navPanel .indent-3 { display: inline-block; width: 3em; }
+			#navPanel .indent-4 { display: inline-block; width: 4em; }
+			#navPanel .indent-5 { display: inline-block; width: 5em; }
+			#navPanel .depth-0 { color: #444; font-weight: 800; }
+		
+/*********************************************************************************/
+/* Wrappers                                                                      */
+/*********************************************************************************/
+    #header
+	{
+      
+	}
+	#header-wrapper
+	{
+		padding-top: 0px;
+		
+	}
+	
+	#banner-wrapper
+	{
+		padding: 0 15px 0 15px;
+	}
+	
+	#features-wrapper
+	{
+		padding: 0 15px 40px 15px;
+	}
+	
+	#main-wrapper
+	{
+		padding: 40px 30px 40px 30px;
+	}
+	
+	#footer-wrapper
+	{
+		padding: 100px 30px 40px 30px;
+	}
+
+
+/*********************************************************************************/
+/* bem-vindo                                                                      */
+/*********************************************************************************/
+
+#bem-vindo
+{
+    font-size: 1.30em;
+	text-align: center;
+	color: #fff;
+	margin-top: 50px;
+}
+#bem-vindo h4
+{
+	color: #fff;
+	font-size: 1.8em;
+
+}
+
+/*********************************************************************************/
+/* Logo                                                                          */
+/*********************************************************************************/
+
+	#logo
+	{
+		text-align: center;
+	}
+
+		#logo h1
+		{
+			display: inline-block;
+			margin: 0 0 0.2em 0;
+			padding: 0.25em 0.2em 0.25em 0.2em;
+			font-size: 3.25em;
+			letter-spacing: 0.05em;
+		}
+
+		#logo span
+		{
+			display: block;
+			letter-spacing: 0.025em;
+			font-size: 0.9em;
+			margin: 0;
+		}
+
+/*********************************************************************************/
+/* Nav                                                                           */
+/*********************************************************************************/
+
+	#nav
+	{
+		display: none;
+	}
+
+/*********************************************************************************/
+/* Banner                                                                        */
+/*********************************************************************************/
+
+	#banner
+	{
+		text-align: center;
+	}
+	
+		#banner h2
+		{
+			font-size: 2em;
+			margin: 0.75em 0 0.5em 0;
+		}
+		
+		#banner p
+		{
+			font-size: 1.5em;
+			line-height: 1.5em;
+			margin: 0;
+		}
+
+		#banner ul
+		{
+			margin: 0;
+		}
+		
+		#banner .button
+		{
+			margin: 1em 0 0 0;
+		}
+
+/*********************************************************************************/
+/* Content                                                                       */
+/*********************************************************************************/
+
+	#content
+	{
+		border-bottom: solid 1px #e8e8e8;
+		padding-bottom: 4em;
+		margin-bottom: 3em !important;
+	}
+	
+		#content > :last-child
+		{
+			margin-bottom: 0 !important;
+		}
+	
+	#sidebar
+	{
+	}
+	
+		#sidebar > :last-child
+		{
+			margin-bottom: 0 !important;
+		}
+
+/*********************************************************************************/
+/* Footer                                                                        */
+/*********************************************************************************/
+
+	#footer
+	{
+	}
+
+		#footer section
+		{
+			border-bottom: solid 1px #ccc;
+			padding-bottom: 2em;
+			margin-bottom: 2em !important;
+		}
+		
+			#footer section.last
+			{
+				padding-bottom: 0;
+				border-bottom: 0;
+				margin-bottom: 0 !important;
+			}
+
+	#copyright
+	{
+		padding: 2em 0 0 0;
+		border-top: solid 1px #ccc;
+		margin: 4em 0 0 0;
+	}
+
+/*******************************************************************************/
+/*carrossel                                                                    */
+/*******************************************************************************/
+
+
+ /* Default stylings */
+ * {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+
+/* Container stylings: 
+-> centers the whole content of the page
+-> defines width and height for container */
+.container1 {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: auto;
+	width: 400px;
+	height: 200px;
+}
+
+/* End of container stylings */
+
+/* Provides padding to main heading */
+.main-heading {
+	padding: 10rem 0 2rem 0;
+	color: #fff;
+}
+
+.content {
+	position: relative;
+}
+
+/* Carousel content stylings */
+/* Places the carousel content on 
+   center of the carousel */
+.carousel-content {
+	position: absolute;
+
+	/* To center the content horizontally 
+	   and vertically */
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	z-index: 50;
+}
+
+.carousel-heading {
+	font-size: 3rem;
+	color: #308d46;
+	margin-bottom: 1rem;
+}
+
+/* End of carousel content stylings */
+
+/* Slideshow stylings */
+.slideshow {
+	height: 100%;
+	overflow: hidden;
+
+	/* To hide slides in x-direction */
+	position: relative;
+}
+
+/* Wrapper which wraps all the 
+   slideshow images stylings */
+.slideshow-wrapper {
+	display: flex;
+
+	/* We give it width as 400% because 
+	we are making a 4 image carousel.
+	If you want to make for example, 
+	5 images carousel, then give width 
+	as 500%. */
+	width: 500%;
+	height: 100%;
+	position: relative;
+
+	/* Change the animation settings */
+	animation: slideshow 20s infinite;
+}
+
+/* Define width and height for images */
+.slide {
+	width: 100%;
+	height: 100%;
+}
+
+.slide-img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+/* @keyframes are used to provide 
+animations We make these settings 
+for 4 image carousel. Make 
+modification accourding to your needs. */
+@keyframes slideshow {
+	0% {
+		left: 0;
+	}
+
+	10% {
+		left: 0;
+	}
+
+	15% {
+		left: -100%;
+	}
+
+	25% {
+		left: -100%;
+	}
+
+	30% {
+		left: -200%;
+	}
+
+	40% {
+		left: -200%;
+	}
+
+	45% {
+		left: -300%;
+	}
+
+	55% {
+		left: -300%;
+	}
+
+	60% {
+		left: -400%;
+	}
+
+	70% {
+		left: -400%;
+	}
+
+	75% {
+		left: -300%;
+	}
+
+	85% {
+		left: -300%;
+	}
+
+	90% {
+		left: -200%;
+	}
+	
+	95% {
+		left: -200%;
+	}
+
+	100% {
+        left: -100%;
+	}
+
+	105% {
+		left: -100%;
+	}
+
+	110% {
+		left: 0%;
+	}
+}
+
+/* End of slideshow stylings */
+
+/* Carousel control buttons stylings */
+.slide-btn {
+	background-color: #bbb;
+	border-radius: 50%;
+	border: .2rem solid #000000;
+	width: 1.2rem;
+	height: 1.2rem;
+	outline: none;
+	cursor: pointer;
+
+	/* Stylings for positioning the 
+	buttons at the bottom of the 
+	carousel */
+	position: absolute;
+	bottom: 3%;
+	left: 50%;
+	transform: translateX(-50%);
+	z-index: 70;
+}
+
+/* As we provide position as absolute, 
+the buttons places one over the other. 
+So, we have to place them individually
+at their correct positions. */
+.slide-btn-1 {
+	left: 45%;
+}
+
+.slide-btn-2 {
+	left: 50%;
+}
+
+.slide-btn-3 {
+	left: 55%;
+}
+
+.slide-btn-4 {
+	left: 60%;
+}
+
+.slide-btn-5 {
+	left: 65%;
+}
+/* When we focus on the particular button, 
+the animation stops to that particular 
+image to which the button is associated. */
+.slide-btn-1:focus~.slideshow-wrapper {
+	animation: none;
+	left: 0;
+}
+
+.slide-btn-2:focus~.slideshow-wrapper {
+	animation: none;
+	left: -100%;
+}
+
+.slide-btn-3:focus~.slideshow-wrapper {
+	animation: none;
+	left: -200%;
+}
+
+.slide-btn-4:focus~.slideshow-wrapper {
+	animation: none;
+	left: -300%;
+}
+
+.slide-btn-5:focus~.slideshow-wrapper {
+	animation: none;
+	left: -400%;
+}
+/* When we focus on the button, the 
+background color changes */
+.slide-btn:focus {
+	background-color: #2b79b9;
+}
+
+/* End of carousel control buttons stylings */
