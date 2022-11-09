@@ -596,7 +596,7 @@
 					
 						.widget.contact ul li a:active
 						{
-							background: #666666;
+							background: #ffffff;
 						}
 				
 /*********************************************************************************/
@@ -677,7 +677,7 @@
 	
 	#copyright
 	{
-		color: rgb(116, 116, 116);
+		color: rgb(255, 255, 255);
 	}
 	
 		#copyright a
